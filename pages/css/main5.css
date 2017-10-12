@@ -1,0 +1,23 @@
+
+.firststanza{
+   position: absolute;
+}
+
+.secondstanza{
+   position: absolute;
+   left:200px;
+   top:50px;
+}
+
+.thirdstanza{
+   position: absolute;
+   left:400px;
+   top:75px;
+}
+
+.fourthstanza{
+   position: absolute;
+   left:600px;
+   top:100px;
+  
+}

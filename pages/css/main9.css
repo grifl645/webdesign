@@ -1,0 +1,68 @@
+*{
+   box-sizing: border-box;
+}
+.AND{
+   position: absolute;
+   left: 250px;
+   top:60px;
+
+}
+.be{
+   position: absolute;
+   left: 250px;
+   top:175px;
+}
+.AND2{
+   position: absolute;
+   left: 280px;
+   top:240px;
+}
+.having{
+   position: absolute;
+   left: 275px;
+   top:355px;
+}
+.IN{
+position: absolute;
+   left: 280px;
+   top:450px;
+}
+.leaves{
+   position: absolute;
+   left: 275px;
+   top:530px;
+}
+.firststanza{
+   position: relative;
+  top: 
+  
+}
+
+.secondstanza{
+   position: relative;
+   top:160px;
+   left:40px;
+}  
+
+.thirdstanza{
+   position: relative;
+   top: 325px;
+   left:50px;
+}
+
+.fourthstanza{
+   position: relative;
+   top: 470px;
+   left:70px;
+
+}
+.SOMEWHERE{
+   position: relative;
+   top: 470px;
+   left:270px;
+}
+.ages{
+   position: relative;
+   top: 460px;
+   left:270px;
+}

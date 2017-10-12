@@ -1,0 +1,49 @@
+
+h3{
+   transform:rotate(-3deg);
+   position:relative;
+   bottom: 30px ;
+   margin-left: 200px;
+}
+.firststanza{
+  height: 300px;
+  line-height: 100px;
+  transform: rotate(5deg);
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+.secondstanza{
+   position: ;
+   height: 400px;
+   line-height: 100px;
+   transform: rotate(5deg);
+   letter-spacing: 5px;
+   margin-left: 50px;
+}
+
+.thirdstanza{
+   position: ;
+   height: 500px;
+   line-height: 100px;
+   transform: rotate(5deg);
+   letter-spacing: 5px;
+   margin-left: 50px;
+}
+
+.fourthstanza{
+   position: ;
+   height: 400px;
+   line-height: 100px;
+   transform: rotate(5deg);
+   letter-spacing: 5px;
+   margin-left: 50px;
+}
+#line1 {
+   position: relative;
+   bottom:30px;
+   transform: rotate(-5deg);
+}
+#line2 {
+   position: relative;
+   transform: rotate(-5deg);

@@ -1,0 +1,65 @@
+
+.firststanza{
+   position: fixed;
+   line-height: 100px;
+   top: 0px;
+}
+
+.first{
+   position: relative;
+   top: 1300px;
+   line-height: 100px;
+}
+
+
+
+
+.secondstanza{
+   position: fixed;
+   line-height: 100px;
+   left:330px;
+   top:0px;
+}  
+.second{
+   position: relative;
+   top: 1075px;
+   line-height: 100px;
+   left:330px;
+}
+
+
+
+.thirdstanza{
+   position: fixed;
+   line-height: 100px;
+   left:660px;
+   top: 0;
+}
+.third{
+   position: relative;
+   top: 860px;
+   line-height: 100px;
+   left:660px;
+}
+
+.fourthstanza{
+   position: fixed;
+   left:960px;
+   top:0px;
+   line-height: 100px;
+}
+
+.fourth{
+  position: relative;
+   top: 650px;
+   line-height: 100px;
+   left:960px; 
+   
+}
+
+
+.bottompage{
+   position: relative;
+   top: 2000px;
+   
+   left:650px;

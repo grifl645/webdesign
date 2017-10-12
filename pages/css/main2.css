@@ -1,0 +1,19 @@
+.firststanza{
+    position:absolute;
+}
+
+.secondstanza{
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+}
+.thirdstanza{
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+}
+.fourthstanza{
+    position: absolute;
+    left: 900px;
+    bottom: 00px;
+}

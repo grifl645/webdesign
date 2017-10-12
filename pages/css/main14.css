@@ -1,0 +1,51 @@
+p{
+	line-height: 50px;
+	text-align: center;
+
+}
+
+.firststanza{
+	transform: rotate(90deg);
+ 
+}
+
+.firststanza:hover{
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+
+.thirdstanza{
+  transform: rotate(90deg);
+
+}
+
+.thirdstanza:hover{
+	animation-name: rotatetwo;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+}
+.secondstanza{
+	line-height: 100px;
+	font-weight: bold;
+}
+.fourthstanza{
+	line-height: 100px;
+	font-weight: bold;
+}
+@keyframes rotate{
+	0%{transform: rotate(90deg);}
+	20%{transform: rotate(0deg);}
+	50%{transform: rotate(0deg);}
+    60%{transform: rotate(0deg);}
+	70%{transform: rotate(0deg);}
+	100%{transform: rotate(90deg);}
+}
+@keyframes rotatetwo{
+	0%{transform: rotate(90deg);}
+	20%{transform: rotate(0deg);}
+	50%{transform: rotate(0deg);}
+    60%{transform: rotate(0deg);}
+	70%{transform: rotate(0deg);}
+	100%{transform: rotate(90deg);}
+}

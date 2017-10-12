@@ -1,0 +1,63 @@
+
+
+.firststanza{
+	background-color: green;
+	width:250px;
+	padding: 30px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	left: 450px;
+	color: green;
+	animation-name: dude;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+.secondstanza{
+	background-color: green;
+	width:250px;
+	padding: 30px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	left: 450px;
+	color: green;
+	animation-name: dude;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+.thirdstanza{
+	background-color: green;
+	width:250px;
+	padding: 30px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	left: 450px;
+	color: green;
+	animation-name: dude;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+.fourthstanza{
+	background-color: green;
+	width:250px;
+	padding: 30px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	left: 450px;
+	color: green;
+	animation-name: dude;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+#one:hover{
+	color: blue;
+}
+
+@keyframes dude{
+	from{background-color: blue}
+	to{background-color: green}
+}

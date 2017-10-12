@@ -1,0 +1,91 @@
+*{
+ box-sizing: content-box;
+}
+
+.firststanza:hover{
+  font-size: 30px;
+  font-family: cursive;
+  animation-name: shrink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+.secondstanza:hover{
+  font-size: 30px;
+  font-family: cursive;
+  animation-name: shrink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+.thirdstanza:hover{
+  font-size: 30px;
+  font-family: cursive;
+  animation-name: shrink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+.fourthstanza:hover{
+  font-size: 30px;
+  font-family: cursive;
+  animation-name: shrink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+.secondstanza:hover{
+  font-size: 25px;
+  font-family: cursive;
+}
+.thirdstanza:hover{
+  font-size: 25px;
+  font-family: cursive;
+}
+.fourthstanza:hover{
+  font-size: 25px;
+  font-family: cursive;
+}
+.firststanza{
+  position: fixed;
+  width: 490px;
+  height: 250px;
+  border: solid 2px black;
+  text-align: center;
+  line-height: 60px
+}
+
+.secondstanza{
+  position: fixed;
+  left:780px;
+  width:490px;
+  height:250px;
+  border: solid 2px black; 
+  text-align: center;
+  line-height: 50px
+}
+.thirdstanza{
+  top:300px;
+  position: fixed;
+  width: 490px;
+  height: 300px;
+  border: solid 2px black;
+  text-align: center;
+  line-height: 60px
+}
+
+.fourthstanza{
+  top:300px;
+  position: fixed;
+  left:780px;
+  width:490px;
+  height:300px;
+  border: solid 2px black; 
+  text-align: center;
+  line-height: 60px
+}
+@keyframes shrink{
+  10%{font-size:25px}
+  50%{font-size:15px}
+  90%{font-size:25px}
+ }

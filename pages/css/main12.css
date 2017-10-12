@@ -1,0 +1,53 @@
+p{
+   line-height: 0px;
+   font-family: arial;
+   font-weight: bold;
+}
+.firststanza:hover{
+   animation-name: shift;
+   animation-iteration-count: 1;
+   animation-duration: 10s;
+}
+.secondstanza:hover{
+  animation-name: shift;
+   animation-iteration-count: 1;
+   animation-duration: 10s;
+
+}
+.thirdstanza:hover{
+  animation-name: shift;
+   animation-iteration-count: 1;
+   animation-duration: 10s;
+   
+}
+.fourthstanza:hover{
+  animation-name: shift;
+   animation-iteration-count: 1;
+   animation-duration: 10s;
+   
+}
+@keyframes shift{
+   5%{line-height:5px }
+   10%{line-height:10px }
+   20%{line-height:20px }
+   30%{line-height:25px }
+   40%{line-height:30px }
+           
+
+}
+.firststanza{
+   position: absolute;
+   top: :500px;
+}
+.secondstanza{
+   position: absolute;
+   left: 325px;
+}
+.thirdstanza{
+   position:absolute;
+   left: 635px;
+}
+.fourthstanza{
+   position:absolute;
+   left: 950px;
+}

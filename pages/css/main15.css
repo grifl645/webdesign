@@ -1,0 +1,84 @@
+p{
+	text-align: center;
+}
+/* headers */
+.headone{
+	text-align: center;
+
+}
+.headtwo{
+	text-align: center;
+
+}
+.headthree{
+	text-align: center;
+
+}
+.headfour{
+	text-align: center;
+
+}
+/* Stanzas with hovers*/
+.firststanza{
+ height: 200px;
+ padding: 225px;
+ font-size: 5px;
+ 
+}
+.firststanza:hover{
+ animation-name: grow;
+ animation-duration: 5s;
+ animation-iteration-count: 1;
+ padding: 225px;
+ font-size: 5px;
+}
+
+
+.secondstanza{
+ height: 200px;
+ padding: 225px;
+ font-size: 5px;
+}
+.secondstanza:hover{
+ animation-name: grow;
+ animation-duration: 5s;
+ animation-iteration-count: 1;
+ padding: 225px;
+ font-size: 5px;
+}
+
+
+.thirdstanza{
+ height: 200px;
+ padding: 225px;
+ font-size: 5px;
+}
+.thirdstanza:hover{
+ animation-name: grow;
+ animation-duration: 5s;
+ animation-iteration-count: 1;
+ padding: 225px;
+ font-size: 5px;
+}
+
+
+.fourthstanza{
+ height: 200px;
+ padding: 225px;
+ font-size: 5px;
+}
+.fourthstanza:hover{
+ animation-name: grow;
+ animation-duration: 5s;
+ animation-iteration-count: 1;
+ padding: 225px;
+ font-size: 5px;
+}
+
+
+
+@keyframes grow{
+	0%{font-size: 5px;}
+	50%{font-size: 50px;}
+	100%{font-size: 50px;}
+}

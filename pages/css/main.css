@@ -1,0 +1,22 @@
+
+.firststanza{
+   position: relative;
+}
+
+.secondstanza{
+   position: relative;
+   left: 300px;
+   top: 200px;
+}
+
+.thirdstanza{
+   position: relative;
+   left: 600px;
+   top: 400px;
+}
+
+.fourthstanza{
+   position: relative;
+   left: 900px;
+   top: 600px;
+}

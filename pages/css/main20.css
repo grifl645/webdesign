@@ -1,0 +1,81 @@
+*{
+	
+}
+
+p{
+	width:400px;
+	height:400px;
+	background-color: red;
+	text-align: center;
+	padding-top:250px;	
+}
+
+.firststanza{
+	color: white;
+	z-index: 23;
+	position: absolute;
+	left:0px;
+
+	
+}
+
+.secondstanza{
+	color: white;
+	z-index:-5 ;	
+	position: relative;
+	left: 600px;
+	left: 875px;
+
+}
+
+.thirdstanza{
+	color: white;
+	position: absolute;
+	left:0px;
+}
+
+.fourthstanza{
+	color: white;
+    z-index:-5 ; 
+    left: 600px;
+    position: relative;
+    bottom:-16px;
+    left: 875px;
+}
+
+.canvas{
+	width: 1300px;
+	height:1000px;
+	background-color: gray;
+	position: fixed;
+	z-index: -10;
+	animation-name: colorshift;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+	left:0px;
+	top:0px;
+}
+
+.whiteblocker{
+	background-color: black;
+	z-index: 50;
+	height: 58px;
+	width: 240px;
+	position: absolute;
+	left: 80px;
+	top: 300px;
+}
+.whiteblocker:hover{
+	animation-name: shifty;
+	
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	
+}
+@keyframes shifty{
+	0%{ top:300px; }
+	50%{ top:200px; }
+	100%{top:300px; }
+}
+
+

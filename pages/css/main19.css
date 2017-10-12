@@ -1,0 +1,98 @@
+*{
+	box-sizing: content-box;
+}
+p{
+	line-height: 68px;
+	
+	text-align: center;
+	height: 500px
+	
+}
+.firststanza{
+	color: white;
+	padding-top: 800px;
+	z-index: 23;
+	font-size: 50px;
+}
+.secondstanza{
+	color: white;
+	opacity: 80%;
+	z-index:-5 ;
+	position: relative;
+	font-size: 30px;
+	
+}
+.thirdstanza{
+	color: white;
+	 font-size: 50px;
+}
+.fourthstanza{
+	color: white;
+	padding-bottom: 800px;
+	position: relative;
+    z-index:-5 ;
+    font-size: 30px;
+}
+
+.canvas{
+	width: 1300px;
+	height:1000px;
+	background-color: gray;
+	position: fixed;
+	z-index: -10;
+	animation-name: colorshift;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+}
+.whiteblocker{
+	height: 400px;
+	width: 3000px;
+	position: fixed;
+	z-index: -1;
+	background-color: black;
+	top:-350px;
+	left:00px;
+	right:00px;
+
+}
+.whiteblockertwo{
+	height: 1000px;
+	width: 3000px;
+	position: fixed;
+	z-index: -1;
+	background-color: black;
+	top:25px;
+	
+	right:325px;
+	transform: rotate(130deg);
+
+}
+.whiteblockerthree{
+	height: 1000px;
+	width: 3000px;
+	position: fixed;
+	z-index: -1;
+	background-color: black;
+	top:25px;
+	
+	left:325px;
+	transform: rotate(-130deg);
+
+}
+#boldboys:hover{
+	font-weight: bold;
+
+}
+
+/*
+@keyframes colorshift{
+	0%{background-color: red;}
+	25%{background-color: green;}
+	50%{background-color: blue;}
+	75%{background-color: red;}
+	80%{background-color: white;}
+	95%{background-color: red;}
+
+}
+
+

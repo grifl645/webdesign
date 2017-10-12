@@ -1,0 +1,82 @@
+*{
+	box-sizing: content-box;
+}
+p{
+	line-height: 68px;
+	z-index: 4;
+	font-size: 35px;
+	text-align: center;
+	transform: rotate(9deg);
+	height: 500px
+	
+}
+.firststanza{
+	color: red;
+	padding-top: 800px;
+}
+.secondstanza{
+	color: blue;
+}
+.thirdstanza{
+	color: green;
+}
+.fourthstanza{
+	color: red;
+	padding-bottom: 800px;
+}
+
+.canvas{
+	width: 1265px;
+	height:600px;
+	background-color: red;
+	position: fixed;
+	z-index: -1;
+	animation-name: colorshift;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+}
+.whiteblocker{
+	height: 100px;
+	width: 3000px;
+	position: fixed;
+	z-index: 10;
+	background-color: white;
+	top:-5px;
+	left:00px;
+	right:00px;
+	transform: rotate(3deg);
+}
+.whiteblockertwo{
+	height: 1000px;
+	width: 3000px;
+	position: fixed;
+	z-index: 20;
+	background-color: white;
+	top:500px;
+	
+	right:-500px;
+	transform: rotate(56deg);
+
+}
+.whiteblockerthree{
+	height: 1000px;
+	width: 3000px;
+	position: fixed;
+	z-index: 20;
+	background-color: white;
+	top:500px;
+	
+	left:-600px;
+	transform: rotate(-42deg);
+
+}
+@keyframes colorshift{
+	0%{background-color: red;}
+	25%{background-color: green;}
+	50%{background-color: blue;}
+	75%{background-color: red;}
+	80%{background-color: white;}
+	95%{background-color: red;}
+
+}
+

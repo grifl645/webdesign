@@ -1,0 +1,43 @@
+*{
+   box-sizing: border-box;
+}
+.toast{
+   border: 5px solid black;
+}
+.firststanza{
+   position: relative;
+   border: 5px solid cyan ;
+   border-radius: 10px;
+   width: 500px;
+   padding: 20px 10px 20px 200px;
+   left: 200px;
+}
+
+.secondstanza{
+   position: relative;
+   border: 5px solid blue ;
+   border-radius: 10px;
+   width: 500px;
+   padding: 30px;
+   left: 350px;
+   text-transform: uppercase;
+}
+
+.thirdstanza{
+   position: relative;
+   border: 5px solid cyan ;
+   border-radius: 10px;
+   width: 500px;
+   padding: 20px 10px 20px 200px;
+   left: 200px;
+}
+
+.fourthstanza{
+   position: relative;
+   border: 5px solid blue ;
+   border-radius: 10px;
+   width: 500px;
+   padding: 30px;
+   left: 350px;
+   text-transform: uppercase;
+}

@@ -1,0 +1,71 @@
+
+
+.firststanza:hover{
+   font-weight: bold;
+   text-align: center;
+   animation-name: six;
+   animation-duration: 5s;
+}
+.secondstanza:hover{
+   font-weight: bold;
+   text-align: center;
+   animation-name: six;
+   animation-duration: 5s;
+}
+.thirdstanza:hover{
+   font-weight: bold;
+   text-align: center;
+   animation-name: six;
+   animation-duration: 5s;
+}
+.fourthstanza:hover{
+   font-weight: bold;
+   text-align: center;
+   animation-name: six;
+   animation-duration: 5s;
+}
+
+
+
+.firststanza{
+   font-size: 25px;
+   animation-name: five;
+   animation-duration: .01s;
+   animation-iteration-count: infinite;
+
+}
+
+.secondstanza{
+   font-size: 25px;
+   animation-name: five;
+   animation-duration: .01s;
+   animation-iteration-count: infinite;
+}
+
+.thirdstanza{
+   font-size: 25px;
+   animation-name: five;
+   animation-duration: .01s;
+   animation-iteration-count: infinite;
+
+}
+
+.fourthstanza{
+   font-size: 25px;
+   animation-name: five;
+   animation-duration: .01s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes five {
+   33% {text-align:right;}
+   66% {text-align:center;}
+   100%{text-align:left;}
+
+}
+@keyframes six {
+   from{text-align:center;}
+   to{text-align: center;}
+  
+
+}
