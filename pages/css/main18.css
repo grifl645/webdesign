@@ -1,6 +1,38 @@
 *{
 	box-sizing: content-box;
 }
+
+.prevcircle{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #fc0000;
+   top:280px;
+   z-index: 1000;
+   left: 10px;
+}
+
+.prevcircle:hover{
+   background-color: #910000;
+}
+
+
+.nextcircle{
+   right: 10px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #c90000;
+   top:280px;
+   z-index: 1000;
+}
+
+.nextcircle:hover{
+  background-color: #fc0000;
+}
+
 p{
 	line-height: 68px;
 	z-index: 4;
@@ -44,8 +76,9 @@ p{
 	top:-5px;
 	left:00px;
 	right:00px;
-	transform: rotate(3deg);
+	transform: rotate(2deg);
 }
+
 .whiteblockertwo{
 	height: 1000px;
 	width: 3000px;
@@ -58,6 +91,7 @@ p{
 	transform: rotate(56deg);
 
 }
+
 .whiteblockerthree{
 	height: 1000px;
 	width: 3000px;

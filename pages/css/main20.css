@@ -1,6 +1,37 @@
 *{
 	
 }
+.prevcircle{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #00ba31;
+   top:280px;
+   z-index: 1000;
+   left: 10px;
+}
+
+.prevcircle:hover{
+   background-color: #006d1c;
+}
+
+
+.nextcircle{
+   right: 10px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #00ba31;
+   top:280px;
+   z-index: 1000;
+}
+
+.nextcircle:hover{
+  background-color: #006d1c;
+}
+
 
 p{
 	width:400px;
@@ -72,10 +103,63 @@ p{
 	animation-duration: 5s;
 	
 }
+.whiteblockertwo{
+	background-color: black;
+	z-index: 50;
+	height: 75px;
+	width: 240px;
+	position: absolute;
+	right: 80px;
+	top: 300px;
+}
+.whiteblockertwo:hover{
+	animation-name: shifty;
+	
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	
+}
+.whiteblockerthree{
+	background-color: black;
+	z-index: 50;
+	height: 75px;
+	width: 240px;
+	position: absolute;
+	right: 80px;
+	bottom:-418px;
+}
+.whiteblockerthree:hover{
+	animation-name: shiftytwo;
+	
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	
+}
+.whiteblockerfour{
+	background-color: black;
+	z-index: 50;
+	height: 75px;
+	width: 240px;
+	position: absolute;
+	right: 960px;
+	bottom:-418px;
+}
+.whiteblockerfour:hover{
+	animation-name: shiftytwo;
+	
+	animation-iteration-count: 1;
+	animation-duration: 5s;
+	
+}
 @keyframes shifty{
 	0%{ top:300px; }
 	50%{ top:200px; }
 	100%{top:300px; }
+}
+@keyframes shiftytwo{
+	0%{ bottom:-418px; }
+	50%{ bottom:-318px; }
+	100%{ bottom:-418px; }
 }
 
 

@@ -1,4 +1,33 @@
+.prevcircle{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #fc0000;
+   top:280px;
+   z-index: 1000;
+   left:10px;
+}
 
+.prevcircle:hover{
+   background-color: #910000;
+}
+
+
+.nextcircle{
+   right: 10px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position:fixed;
+   background-color: #c90000;
+   top:280px;
+   z-index: 1000;
+}
+
+.nextcircle:hover{
+  background-color: #fc0000;
+}
 .firststanza{
    position: relative;
    left: 50px;
