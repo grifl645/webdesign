@@ -6,6 +6,7 @@
    background-color: #fc0000;
    top:280px;
    z-index: 1000;
+   left:10px;
 }
 
 .prevcircle:hover{
