@@ -1,0 +1,115 @@
+.info{
+	display: none;
+	z-index: 1000;
+	color: white;
+}
+.moon:hover{
+	display: block;
+}
+.info:hover{
+	display: block;
+}
+.rightside{
+	position: absolute;
+	width: 12.5%;
+	background-color: gray;
+	z-index: 800;
+	height: 8000px;
+	top:0%;
+	right: 0%;
+}
+
+.leftside{
+	position: absolute;
+	width: 12.5%;
+	background-color: gray;
+	z-index: 800;
+	height: 8000px;
+	top:0%;
+	left: 0%;
+}
+
+.donationbar{
+	background-color: white;
+	border: solid black 2px;
+	height: 75%;
+	width: 50px;
+	top:12.5%;
+	left: 4%;
+	position: fixed;
+	z-index: 700;
+
+}
+.background{
+   width: 75%;
+   height: 8000px;
+   background: linear-gradient(black,blue); /* Standard syntax */
+   position: absolute;
+   left: 12.5%;
+   top: 0px;
+   z-index: 1;
+   
+}
+.moon{
+	position: absolute;
+	color: yellow;
+	left: 35%;
+	top: 5%;
+	font-size: 100px;
+	z-index: 100;
+}
+
+
+.star{
+	font-size: 60px;
+	color: #fcee85;
+	position: absolute;
+	left: 2%;
+	z-index: 200;
+	animation-name: blinkafter;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 20px white;
+}
+.startwo{
+	font-size: 60px;
+	color: #fcee85;
+	position: absolute;
+	left: 2%;
+	z-index: 200;
+	animation-name: blinkafter;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 0 20px white;
+	top: 2%;
+	left: 6%;
+}
+.ground{
+	position: relative;
+	width:100%;
+	top:7800px;
+	background-color: green;
+	height:200px;
+	bottom:0%;
+	z-index: 400;
+}
+@-webkit-keyframes blinkafter {
+	0% { color:#fcee85;}
+	20% { color:#f4de35;}
+	30% { color:#eddb50;}
+	40% { color:#efdf5f;}
+	50% { color:#efdf5f;}
+    60% { color:#e5db8b;}
+    100% { color:#fcf5c2;}
+	
+}
+@-webkit-keyframes glowing{
+	0% {text-shadow: 5px 0 30px white;}
+	10% { text-shadow: 0 20 40px white;}
+	30% { text-shadow: 5px 0 50px #eddb50;}
+	50% { text-shadow: 0 0 60px #efdf5f;}
+	60% { text-shadow: 20px 0 0px #efdf5f;}
+   
+    100% { text-shadow: 0 0 50px white;}
+	
+}
