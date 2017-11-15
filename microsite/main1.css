@@ -1,115 +1,341 @@
-.info{
-	display: none;
+* {
+  -webkit-font-smoothing: antialiased;
+  font-family: futura;
+ 
+
+}
+
+.donate{
 	z-index: 1000;
+	position: absolute;
+	height: 200px;
+    top: 810%;
+    left:40%;
+    color: white;
+    font-size: 40px;
+    animation-name: floating2;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.button2{
+	z-index: 1000;
+	position: absolute;
+	height: 200px;
+    top: 800%;
+    left:25%;
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    background-color:#222e68;
+    border: none;
+    animation-name: floatingfour;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.button2:hover{
+	z-index: 1000;
+	position: absolute;
+	height: 200px;
+    top: 800%;
+    left:25%;
+    width: 50%;
+    color: red;
+    background-color: green;
+    border: none;
+    animation-name: floatingfour;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+.demo{
+ 
+}
+
+
+.words{
+	line-height: 1750px;
+	z-index: 100;
+	position: absolute;
+	top: 4000px;
 	color: white;
-}
-.moon:hover{
-	display: block;
-}
-.info:hover{
-	display: block;
-}
-.rightside{
-	position: absolute;
-	width: 12.5%;
-	background-color: gray;
-	z-index: 800;
-	height: 8000px;
-	top:0%;
-	right: 0%;
+	font-size: 30px;
+	text-align: center;
+	left: 5%;
+
+	animation-name: floatingthree;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
-.leftside{
+.partyinfo{
+	z-index: 40;
+	position: relative;
+	color: white;
+  top: 40px;
+	font-size:20px;
+	text-align: center;
+	line-height: 60px;
+  animation-name: floatingfour;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+}
+/* MOON AT TOP OF PAGE */ 
+
+.partyinfocontainer{
+	top: 22%;
+	height: 400px;
+	width: 400px;
+    margin-left: 33%;
+	margin-right: 33%;
+	border-radius: 50%;
 	position: absolute;
-	width: 12.5%;
-	background-color: gray;
-	z-index: 800;
-	height: 8000px;
-	top:0%;
-	left: 0%;
+	z-index:19;
+	
 }
 
-.donationbar{
+.moon2{
+	top: 22%;
+	height: 400px;
+	width: 400px;
+  margin-left: 33%;
+	margin-right: 33%;
+	border-radius: 50%;
 	background-color: white;
-	border: solid black 2px;
-	height: 75%;
-	width: 50px;
-	top:12.5%;
-	left: 4%;
-	position: fixed;
-	z-index: 700;
+	position: absolute;
+	z-index:17;
+	filter:blur(30px);
+	animation-name: flutter;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	opacity: 80%;
+	
 
 }
+.moon3{
+	top: 22%;
+	height: 400px;
+	width: 400px;
+  margin-left: 33%;
+	margin-right: 33%;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	z-index:18;
+	filter:blur(5px);
+	animation-name: floatingfive;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+/* GRADIENT BACKGROUND*/
 .background{
-   width: 75%;
-   height: 8000px;
-   background: linear-gradient(black,blue); /* Standard syntax */
+   width: 100%;
+   height: 20000px;
+   background: linear-gradient(black,#111733); 
    position: absolute;
-   left: 12.5%;
+   left: 0%;
    top: 0px;
    z-index: 1;
-   
-}
-.moon{
-	position: absolute;
-	color: yellow;
-	left: 35%;
-	top: 5%;
-	font-size: 100px;
-	z-index: 100;
+   filter: blur(30px)
+    -webkit-transform: translate3d(0,0,0);
+
 }
 
 
-.star{
-	font-size: 60px;
-	color: #fcee85;
-	position: absolute;
-	left: 2%;
-	z-index: 200;
-	animation-name: blinkafter;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	text-shadow: 0 0 20px white;
+/*black background*/
+
+.backgroundtwo{
+   width: 100%;
+   height: 20000px;
+   background-color: black;
+   position: absolute;
+   left: 0%;
+   top: 0px;
+   z-index: 0;
+   animation-name: colorchange;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+      -webkit-transform: translate3d(0,0,0);
+ 
 }
-.startwo{
-	font-size: 60px;
-	color: #fcee85;
-	position: absolute;
-	left: 2%;
-	z-index: 200;
-	animation-name: blinkafter;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	text-shadow: 0 0 20px white;
-	top: 2%;
-	left: 6%;
+@keyframes colorchange {
+	10%{ background-color: black; }
+	30%{ background-color: #2b2b2b; }
+	50%{ background-color: #595858; }
+	55%{ background-color: #8c8c8c; }
+	60%{ background-color: #595858; }
+	80%{ background-color: #2b2b2b; }
+	100%{ background-color: black; }
+
 }
+
+
+/* GROUND AT BOTTOM */
 .ground{
-	position: relative;
+	position: absolute;
 	width:100%;
-	top:7800px;
-	background-color: green;
-	height:200px;
+	background-color: #194c1f;
+	height:182px;
 	bottom:0%;
-	z-index: 400;
+	z-index: 0;
+	filter: blur(15px)
 }
-@-webkit-keyframes blinkafter {
-	0% { color:#fcee85;}
-	20% { color:#f4de35;}
-	30% { color:#eddb50;}
-	40% { color:#efdf5f;}
-	50% { color:#efdf5f;}
-    60% { color:#e5db8b;}
-    100% { color:#fcf5c2;}
-	
+
+/* SCROLL BAR */
+.scroll-progress-container {
+  width: 75%;
+  height: 10px;
+  background-color: green;
+  top: 35px;
+  position: fixed;
+  left:12%;
+  z-index: 100000;
+
+
 }
-@-webkit-keyframes glowing{
-	0% {text-shadow: 5px 0 30px white;}
-	10% { text-shadow: 0 20 40px white;}
-	30% { text-shadow: 5px 0 50px #eddb50;}
-	50% { text-shadow: 0 0 60px #efdf5f;}
-	60% { text-shadow: 20px 0 0px #efdf5f;}
-   
-    100% { text-shadow: 0 0 50px white;}
-	
+
+.scroll-progress {
+  width: 75%;
+  height: 10px;
+  background-color: #222e68;
+  z-index: 1000000;
+
 }
+
+/*labels for scroll bar */
+.goal{
+position: fixed;
+width: 10%
+z-index:3;
+font-size: 30px;
+color: white;
+left:2.5%;
+top:3.5%;
+animation-name: floating2;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+.actualgoal{
+position: fixed;
+width: 10%
+z-index:3;
+font-size: 20px;
+color: white;
+left:12%;
+top:1%;
+}
+
+.amountraised{
+position: fixed;
+width: 10%
+z-index:3;
+font-size: 15px;
+color: white;
+right:2.5%;
+top:3%;
+animation-name: floating;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+.zerodollars{
+position: fixed;
+width: 10%
+z-index:3;
+font-size: 20px;
+color: white;
+right:13%;
+top:1%;
+}
+
+
+/* welcome at bottom of page*/
+.welcome{
+	position: absolute;
+	z-index: 100;
+	bottom: -2985%;
+	color: white;
+	font-size: 60px;
+	width: 50%;
+	filter: blur(0px);
+	text-align: center;
+	font-family: futura;
+	left:25%;
+	animation-name: flashing;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+}
+.arrow{
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 50px solid red;
+  z-index: 10;
+  top: 3050%;
+  position: absolute;
+  left: 10%;
+  animation-name: flashingtwo;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  opacity: 0;
+  animation-delay: 5s;
+
+}
+
+/* animation for the welcome, creates a flashing effect */
+@keyframes flashing { 
+ 0%{ opacity: 0; }
+ 50%{opacity: 100; }
+ 75% {opacity: 50;}
+ 100% { opacity: 0; }
+}
+
+@keyframes flashingtwo { 
+ 0%{ opacity: 0; }
+ 50%{opacity: 100; }
+ 75% {opacity: 50;}
+ 100% { opacity: 0; }
+}
+
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }  
+}
+
+@keyframes floating2 {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 25px); }
+    to   { transform: translate(0, -0px); }  
+}
+@keyframes floatingthree {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 70px); }
+    to   { transform: translate(0, 0px); }  
+}
+@keyframes floatingfour {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, -50px); }
+    to   { transform: translate(0, 0px); }  
+}
+@keyframes floatingfive {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, -10px); }
+    to   { transform: translate(0, 0px); }  
+}
+@keyframes flutter {
+    from { filter:blur(30px);}
+    65%  { filter:blur(50px);}
+    to   { filter:blur(30px);}
+}
+
+
+
