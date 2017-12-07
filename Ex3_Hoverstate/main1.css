@@ -1,0 +1,105 @@
+div{
+	transition-timing-function: cubic-bezier(0,1,.98,0);
+	transition-duration:3s;
+	left: 500px;
+	display: block;
+
+}
+.grass{
+	height: 850px;
+	width: 1280px;
+	background-color: #47995c;
+	position: absolute;
+	left:0px;
+	top: 0px;
+}
+.sidewalk{
+	height: 850px;
+	width:300px;
+	background-color: #afafaf;
+	position: absolute;
+	left: 350px;
+	top:0px;
+}
+.leaf1{
+width: 100px;
+height: 100px;
+background-color: orange;
+position: relative;
+transition
+left: 500px;
+top: 50px;
+}
+.leaf1:hover{
+transform: translateX(200px)
+
+}
+
+.leaf2{
+width: 50px;
+height: 50px;
+left: 400px;
+background-color:#ffd77a;
+position: absolute;
+transition
+top: 104px;
+}
+.leaf2:hover{
+transform: translateX(50px)
+}
+
+.leaf3{
+width: 65px;
+height: 56px;
+background-color: #efd83e;
+position:absolute;
+left: 575px;
+top: 150px;
+}
+.leaf3:hover{
+transform: translateX(-50px)
+}
+
+.leaf4{
+width: 86px;
+height: 86px;
+background-color: #ed5d31;
+position: absolute;
+transition
+left: 625px;
+top: 450px;
+}
+.leaf4:hover{
+transform: translateY(50px);
+}
+
+.leaf5{
+width: 40px;
+height: 40px;
+background-color: #bf6d20;
+position: absolute;
+left: 455px;
+top: 521px;
+}
+.leaf5:hover{
+transform: translateX(50px)
+}
+
+.leaf6{
+width: 120px;
+height:120px;
+background-color: orange;
+position: absolute;
+transition
+left: 454px;
+top: 710px;
+}
+.leaf6:hover{
+transform: translateX(-50px)
+}
+
+@keyframes shiftright{
+	10%{ background-color: blue; }
+	100%{ background-color: red; }
+}
+

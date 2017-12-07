@@ -1,0 +1,508 @@
+
+a{
+  text-decoration: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  filter: blur(.25px);
+  z-index: 100;
+}
+
+#targetone{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 105;
+  top: 500%;
+}
+
+/* Triangle links projects */ 
+
+.variations{
+left:10%;
+top: 100px;
+
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+animation-name: floatx;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+}
+
+.variations:hover{
+left: 10.75%;
+border-top: 15px solid transparent;
+border-left: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+
+
+
+.shadow1{
+left:9.75%;
+top: 106px;
+transform: rotate(180deg);
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-right: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+}
+
+
+
+
+
+.microsite{
+left:30%;
+top: 100px;
+
+border-top: 15px solid transparent;
+border-right: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+filter: blur(.25px);
+animation-name: floatxneg;
+animation-iteration-count: infinite;
+animation-duration: 7s;
+}
+
+.microsite:hover{
+border-top: 15px solid transparent;
+border-right: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+
+.shadow2{
+left:29.75%;
+top: 106px;
+
+filter: blur(5px);
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-right: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+}
+
+
+
+
+/* top row middle */
+.dowhat{
+left: 50%;
+top: 100px;
+
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #42a7dd;
+
+animation-name: floaty;
+animation-iteration-count: infinite;
+animation-duration: 7s;
+
+filter: blur(.25px);
+}
+
+.dowhat:hover{
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #3891c1;
+}
+
+.shadow3{
+left: 49.5%;
+top: 106px;
+
+position: absolute;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #d6d6d6;
+filter: blur(5px);
+}
+
+
+
+
+
+.republish{
+left: 70%;
+top: 100px;
+
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid  #42a7dd;
+
+filter: blur(.25px);
+animation-name: floatyneg;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+
+.republish:hover{
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid  #3891c1;
+}
+
+.shadow4{
+left: 69.75%;
+top: 106px;
+
+position: absolute;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid #d6d6d6;
+filter: blur(5px);
+}
+
+
+
+
+
+.screenshot{
+left: 90%;
+top: 100px;
+
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+filter: blur(.25px);
+animation-name: floatx;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+}
+
+.screenshot:hover{
+border-top: 15px solid transparent;
+border-left: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+.shadow5{
+left: 89.75%;
+top: 106px;
+
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-left: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+}
+
+
+
+
+
+
+
+
+
+
+/* Triangle links exercises */ 
+
+
+.review{
+left:90%; 
+bottom: 100px;
+
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #42a7dd;
+
+animation-name: floaty;
+animation-iteration-count: infinite;
+animation-duration: 9s;
+}
+
+.review:hover{
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #3891c1;
+
+}
+
+.shadow6{
+left:89.75%; 
+bottom: 94px;
+
+position: absolute;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #d6d6d6;
+
+filter: blur(5px);
+}
+
+
+
+
+
+
+
+.boxes{
+left:74%; 
+bottom: 100px; 
+
+border-top: 15px solid transparent;
+border-right: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+animation-name: floatxneg;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+}
+
+.boxes:hover{
+border-top: 15px solid transparent;
+border-right: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+
+.shadow7{
+left:73.75%; 
+bottom: 94px;
+
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-right: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+}
+
+
+
+
+
+
+
+.hoverstate{
+bottom: 100px;
+left:58%; 
+
+
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+animation-name: floatx;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+}
+
+.hoverstate:hover{
+border-top: 15px solid transparent;
+border-left: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+
+.shadow8{
+bottom: 94px;
+left:57.75%; 
+
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-left: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+}
+
+
+
+
+
+
+.responsivepage{
+bottom: 100px;
+left:42%; 
+
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid  #42a7dd;
+
+animation-name: floatyneg;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+}
+
+.responsivepage:hover{
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid  #3891c1;
+}
+
+.shadow9{
+bottom: 94px;
+left:41.75%; 
+
+position: absolute;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 40px solid  #d6d6d6;
+filter: blur(5px);
+}
+
+
+
+
+
+.abstractgrid{
+left:26%; 
+bottom: 100px;
+
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #42a7dd;
+
+animation-name: floaty;
+animation-iteration-count: infinite;
+animation-duration: 7s;
+}
+
+.abstractgrid:hover{
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #3891c1;
+}
+
+.shadow10{
+bottom: 94px;
+left:25.75%; 
+
+position: absolute;
+width: 0;
+height: 0;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-bottom: 40px solid #d6d6d6;
+filter: blur(5px);
+
+}
+
+
+
+
+
+
+
+.sentence{
+left:10%; 
+bottom: 100px;
+
+border-top: 15px solid transparent;
+border-right: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+animation-name: floatxneg;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+
+.sentence:hover{
+border-top: 15px solid transparent;
+border-right: 40px solid #3891c1;
+border-bottom: 15px solid transparent;
+}
+
+.shadow11{
+bottom: 94px;
+left:9.75%; 
+
+position: absolute;
+width: 0;
+height: 0;
+filter: blur(5px);
+border-top: 15px solid transparent;
+border-right: 40px solid #d6d6d6;
+border-bottom: 15px solid transparent;
+}
+
+
+
+
+
+
+
+@keyframes floaty {
+  0% {
+    
+    transform: translatey(0px);
+
+  }
+  50% {
+   
+    transform: translatey(-15px);
+  }
+  100% {
+  
+    transform: translatey(0px);
+  }
+}
+
+
+@keyframes floatyneg {
+  0% {
+    
+    transform: translatey(0px);
+
+  }
+  50% {
+   
+    transform: translatey(15px);
+  }
+  100% {
+  
+    transform: translatey(0px);
+  }
+}
+
+
+@keyframes floatx {
+  0% {
+    
+    transform: translatex(0px);
+
+  }
+  50% {
+   
+    transform: translatex(15px);
+  }
+  100% {
+  
+    transform: translatex(0px);
+  }
+}
+
+@keyframes floatxneg {
+  0% {
+    
+    transform: translatex(0px);
+
+  }
+  50% {
+   
+    transform: translatex(-15px);
+  }
+  100% {
+  
+    transform: translatex(0px);
+  }
+}

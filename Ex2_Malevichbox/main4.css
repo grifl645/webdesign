@@ -1,0 +1,44 @@
+.box{
+	width: 200px;
+	height:100px;
+	background-color: #000000;
+	position: relative;
+	top:50px;
+	left:600px;
+	transform: rotate(50deg);
+}
+.boxtwo{
+	width: 300px;
+	height:400px;
+	background-color: #1d1d1e;
+	position: absolute;
+	top:10px;
+	transform: rotate(20deg);
+	left:400px;
+}
+.boxthree{
+	width: 600px;
+	height:400px;
+	background-color: #2d2d30;
+	position: absolute;
+	top:200px;
+	transform: rotate(180deg);
+	left:100px;
+}
+.boxfour{
+	width: 100px;
+	height:400px;
+	background-color: #434347;
+	position: absolute;
+	top:180px;
+	transform: rotate(0deg);
+	left:800px;
+}
+
+
+
+
+
+
+
+
