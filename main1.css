@@ -7,22 +7,40 @@ a{
   filter: blur(.25px);
   z-index: 100;
 }
+.canvas{
+  width: 10000px;
+  height: 10000px;
+  background-color: red;
+  z-index: 1;
+  margin: 0px;
+}
 
+button:focus {outline:0;}
+button{
+  border-radius: 0;
+  z-index: 1000;
+  background-color: transparent;
+
+
+}
 #targetone{
   position: absolute;
   width:100px:
   height:10px;
   background-color: red;
   z-index: 105;
-  top: 500%;
+  top: 500px;
+  left: 5000px;
 }
 
 /* Triangle links projects */ 
 
-.variations{
+#variations{
 left:10%;
 top: 100px;
+position: absolute;
 
+border:none;
 border-top: 15px solid transparent;
 border-left: 40px solid #42a7dd;
 border-bottom: 15px solid transparent;
@@ -32,8 +50,8 @@ animation-iteration-count: infinite;
 animation-duration: 8s;
 }
 
-.variations:hover{
-left: 10.75%;
+#variations:hover{
+
 border-top: 15px solid transparent;
 border-left: 40px solid #3891c1;
 border-bottom: 15px solid transparent;

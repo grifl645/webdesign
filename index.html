@@ -3,13 +3,26 @@
 <head>
 <link rel="stylesheet" type="text/css" href="main1.css">
 
-<script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script>
 
+
+        $(document).ready(function (){
+            $("#variations,").click(function (){
+                $('html, body').animate({
+           
+                    scrollLeft: $("#targetone").offset().left
+
+                }, 1000);
+            });
+
+        });
 
 
 </script>
 
 </head>
+
 <body>
 
 
@@ -18,12 +31,13 @@
 
 
 
+<button id="variations"> </button>
 
-
+<div class= canvas> 
 <!Triangle Links Projects >
   <div id="targetone">boy</div>
 
-  <a class=variations href="index.html#targetone"> </a>
+
 
     <div class=shadow1></div>
 
@@ -73,7 +87,8 @@
 
     <div class=shadow11></div>
 
-<div class=targetone></div>
+</div>
+<div class=canvas></div>
 
 
 </body>
