@@ -7,41 +7,30 @@ a{
   filter: blur(.25px);
   z-index: 100;
 }
-#center{
-  position: absolute;
-  left: 5000px;
-  top: 5000px;
-}
 .canvas{
-  width: 10000px;
-  height: 10000px;
-  background-color: red;
+  width: 100000px;
+  height: 100%;
+  background-color: #5a6475;
   z-index: 1;
-  margin: 0px;
+  position: absolute;
+  left: 0px;
+  top:0px;
 }
-
 button:focus {outline:0;}
 button{
   border-radius: 0;
   z-index: 1000;
   background-color: transparent;
-
-
-}
-#targetone{
   position: absolute;
-  width:100px:
-  height:10px;
-  background-color: red;
-  z-index: 105;
-  top: 500px;
-  left: 5000px;
 }
 
-/* Triangle links projects */ 
 
-#variations{
-left:10%;
+
+
+
+/* HOMEPAGE */
+#dowhat{
+left:1%;
 top: 100px;
 position: absolute;
 
@@ -55,408 +44,588 @@ animation-iteration-count: infinite;
 animation-duration: 8s;
 }
 
-#variations:hover{
-
-border-top: 15px solid transparent;
-border-left: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
-}
-
-
-
 .shadow1{
-left:9.75%;
+left:.9%;
 top: 106px;
 transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-right: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target1{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 2000px;
+}
+.title{
+  position: absolute;
+  z-index:2; 
+  left:550px;
+  top: 300px;
 }
 
 
 
 
-
-.microsite{
-left:30%;
+/*Page 1 (DO WHAT link)*/
+#websiteanalysis{
+left:2020px;
 top: 100px;
+position: absolute;
 
+border:none;
 border-top: 15px solid transparent;
-border-right: 40px solid #42a7dd;
+border-left: 40px solid #42a7dd;
 border-bottom: 15px solid transparent;
 
-filter: blur(.25px);
-animation-name: floatxneg;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 7s;
-}
-
-.microsite:hover{
-border-top: 15px solid transparent;
-border-right: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
+animation-duration: 8s;
 }
 
 .shadow2{
-left:29.75%;
+left:2020px;
 top: 106px;
-
-filter: blur(5px);
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-right: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
+filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target2{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 4000px;
+}
+.title2{
+  position: absolute;
+  z-index:2; 
+  left:2550px;
+  top: 300px;
+  width: 400px;
 }
 
 
 
 
-/* top row middle */
-.dowhat{
-left: 50%;
+/*Page 3 (website analysis link)*/
+#screenshot{
+left:4020px;
 top: 100px;
+position: absolute;
 
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #42a7dd;
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
 
-animation-name: floaty;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 7s;
-
-filter: blur(.25px);
-}
-
-.dowhat:hover{
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #3891c1;
+animation-duration: 8s;
 }
 
 .shadow3{
-left: 49.5%;
+left:4020px;
 top: 106px;
-
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #d6d6d6;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target3{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 6000px;
+}
+.title3{
+  position: absolute;
+  z-index:2; 
+  left:4550px;
+  top: 300px;
+  width: 400px;
 }
 
 
-
-
-
-.republish{
-left: 70%;
+/*Page 4 (Screenshot link)*/
+#malevich{
+left:6020px;
 top: 100px;
+position: absolute;
 
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid  #42a7dd;
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
 
-filter: blur(.25px);
-animation-name: floatyneg;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 10s;
-}
-
-.republish:hover{
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid  #3891c1;
+animation-duration: 8s;
 }
 
 .shadow4{
-left: 69.75%;
+left:6020px;
 top: 106px;
-
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid #d6d6d6;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target4{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 8000px;
+}
+.title4{
+  position: absolute;
+  z-index:2; 
+  left:6550px;
+  top: 300px;
+  width: 400px;
 }
 
 
-
-
-
-.screenshot{
-left: 90%;
+/*Page 5 (Malevich link)*/
+#republish{
+left:8020px;
 top: 100px;
+position: absolute;
 
+border:none;
 border-top: 15px solid transparent;
 border-left: 40px solid #42a7dd;
 border-bottom: 15px solid transparent;
-filter: blur(.25px);
+
 animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 6s;
+animation-duration: 8s;
 }
 
-.screenshot:hover{
-border-top: 15px solid transparent;
-border-left: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
-}
 .shadow5{
-left: 89.75%;
+left:8020px;
 top: 106px;
-
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-left: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
 }
 
+#target5{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 10000px;
+}
+.title5{
+  position: absolute;
+  z-index:2; 
+  left:8550px;
+  top: 300px;
+  width: 400px;
+}
 
+/*Page 6 (Republish)*/
+#hover{
+left:10020px;
+top: 100px;
+position: absolute;
 
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
 
-
-
-
-
-
-
-/* Triangle links exercises */ 
-
-
-.review{
-left:90%; 
-bottom: 100px;
-
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #42a7dd;
-
-animation-name: floaty;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 9s;
-}
-
-.review:hover{
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #3891c1;
-
+animation-duration: 8s;
 }
 
 .shadow6{
-left:89.75%; 
-bottom: 94px;
-
-position: absolute;
-width: 0;
-height: 0;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #d6d6d6;
-
-filter: blur(5px);
-}
-
-
-
-
-
-
-
-.boxes{
-left:74%; 
-bottom: 100px; 
-
-border-top: 15px solid transparent;
-border-right: 40px solid #42a7dd;
-border-bottom: 15px solid transparent;
-
-animation-name: floatxneg;
-animation-iteration-count: infinite;
-animation-duration: 6s;
-}
-
-.boxes:hover{
-border-top: 15px solid transparent;
-border-right: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
-}
-
-.shadow7{
-left:73.75%; 
-bottom: 94px;
-
+left:10020px;
+top: 106px;
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-right: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
 }
 
+#target6{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 12000px;
+}
+.title6{
+  position: absolute;
+  z-index:2; 
+  left:10550px;
+  top: 300px;
+  width: 400px;
+}
 
+/*Page 7 (Hover)*/
+#variations{
+left:12020px;
+top: 100px;
+position: absolute;
 
-
-
-
-
-.hoverstate{
-bottom: 100px;
-left:58%; 
-
-
+border:none;
 border-top: 15px solid transparent;
 border-left: 40px solid #42a7dd;
 border-bottom: 15px solid transparent;
+
 animation-name: floatx;
 animation-iteration-count: infinite;
 animation-duration: 8s;
 }
 
-.hoverstate:hover{
-border-top: 15px solid transparent;
-border-left: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
-}
-
-.shadow8{
-bottom: 94px;
-left:57.75%; 
-
+.shadow7{
+left:12020px;
+top: 106px;
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
 border-top: 15px solid transparent;
-border-left: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
 }
 
+#target7{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 14000px;
+}
+.title7{
+  position: absolute;
+  z-index:2; 
+  left:12550px;
+  top: 300px;
+  width: 400px;
+}
 
+/*Page 8 (variations)*/
+#responsive{
+left:14020px;
+top: 100px;
+position: absolute;
 
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
 
-
-
-.responsivepage{
-bottom: 100px;
-left:42%; 
-
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid  #42a7dd;
-
-animation-name: floatyneg;
+animation-name: floatx;
 animation-iteration-count: infinite;
 animation-duration: 8s;
 }
 
-.responsivepage:hover{
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid  #3891c1;
+.shadow8{
+left:14020px;
+top: 106px;
+transform: rotate(180deg);
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target8{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 16000px;
+}
+.title8{
+  position: absolute;
+  z-index:2; 
+  left:14550px;
+  top: 300px;
+  width: 400px;
+}
+
+
+/*Page 9 (Responsive)*/
+#microsite{
+left:16020px;
+top: 100px;
+position: absolute;
+
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+animation-name: floatx;
+animation-iteration-count: infinite;
+animation-duration: 8s;
 }
 
 .shadow9{
-bottom: 94px;
-left:41.75%; 
-
+left:16020px;
+top: 106px;
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-top: 40px solid  #d6d6d6;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
 filter: blur(5px);
+opacity: .5;
+z-index: 3;
 }
 
+#target9{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 18000px;
+}
+.title9{
+  position: absolute;
+  z-index:2; 
+  left:16550px;
+  top: 300px;
+  width: 400px;
+}
 
+/*Page 10 (Microsite)*/
+#abstract{
+left:18020px;
+top: 100px;
+position: absolute;
 
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
 
-
-.abstractgrid{
-left:26%; 
-bottom: 100px;
-
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #42a7dd;
-
-animation-name: floaty;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 7s;
-}
-
-.abstractgrid:hover{
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #3891c1;
+animation-duration: 8s;
 }
 
 .shadow10{
-bottom: 94px;
-left:25.75%; 
-
+left:18020px;
+top: 106px;
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
-border-left: 15px solid transparent;
-border-right: 15px solid transparent;
-border-bottom: 40px solid #d6d6d6;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
 filter: blur(5px);
-
+opacity: .5;
+z-index: 3;
 }
 
+#target10{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 20000px;
+}
+.title10{
+  position: absolute;
+  z-index:2; 
+  left:18550px;
+  top: 300px;
+  width: 400px;
+}
 
+/*Page 11 (Abstract Grid)*/
+#sentence{
+left:20020px;
+top: 100px;
+position: absolute;
 
-
-
-
-
-.sentence{
-left:10%; 
-bottom: 100px;
-
+border:none;
 border-top: 15px solid transparent;
-border-right: 40px solid #42a7dd;
+border-left: 40px solid #42a7dd;
 border-bottom: 15px solid transparent;
 
-animation-name: floatxneg;
+animation-name: floatx;
 animation-iteration-count: infinite;
-animation-duration: 10s;
-}
-
-.sentence:hover{
-border-top: 15px solid transparent;
-border-right: 40px solid #3891c1;
-border-bottom: 15px solid transparent;
+animation-duration: 8s;
 }
 
 .shadow11{
-bottom: 94px;
-left:9.75%; 
-
+left:20020px;
+top: 106px;
+transform: rotate(180deg);
 position: absolute;
 width: 0;
 height: 0;
-filter: blur(5px);
 border-top: 15px solid transparent;
-border-right: 40px solid #d6d6d6;
+border-right: 40px solid black;
 border-bottom: 15px solid transparent;
+filter: blur(5px);
+opacity: .5;
+z-index: 3;
 }
+
+#target11{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 22000px;
+}
+.title11{
+  position: absolute;
+  z-index:2; 
+  left:20550px;
+  top: 300px;
+  width: 400px;
+}
+
+/*Page 12 (Sentence Generator)*/
+#beggining{
+left:22020px;
+top: 100px;
+position: absolute;
+
+border:none;
+border-top: 15px solid transparent;
+border-left: 40px solid #42a7dd;
+border-bottom: 15px solid transparent;
+
+animation-name: floatx;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+}
+
+.shadow12{
+left:22020px;
+top: 106px;
+transform: rotate(180deg);
+position: absolute;
+width: 0;
+height: 0;
+border-top: 15px solid transparent;
+border-right: 40px solid black;
+border-bottom: 15px solid transparent;
+filter: blur(5px);
+opacity: .5;
+z-index: 3;
+}
+
+#target12{
+  position: absolute;
+  width:100px:
+  height:10px;
+  background-color: red;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+.title12{
+  position: absolute;
+  z-index:2; 
+  left:22550px;
+  top: 300px;
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
