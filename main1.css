@@ -7,6 +7,11 @@ a{
   filter: blur(.25px);
   z-index: 100;
 }
+#center{
+  position: absolute;
+  left: 5000px;
+  top: 5000px;
+}
 .canvas{
   width: 10000px;
   height: 10000px;
