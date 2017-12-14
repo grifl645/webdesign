@@ -136,7 +136,13 @@ z-index: 3;
   top: 300px;
 }
 
-
+.inbetween {
+  position: absolute;
+  z-index:1000; 
+  left:1300px;
+  top: 300px;
+  width: 400px;
+}
 
 /*Page 1 (DO WHAT link)*/
 #websiteanalysis{
@@ -182,6 +188,13 @@ z-index: 3;
   position: absolute;
   z-index:1000; 
   left:2550px;
+  top: 300px;
+  width: 400px
+}
+.inbetween2{
+  position: absolute;
+  z-index:1000; 
+  left:3300px;
   top: 300px;
   width: 400px;
 }
@@ -237,6 +250,14 @@ z-index: 3;
   top: 300px;
   width: 400px;
 }
+.inbetween3{
+  position: absolute;
+  z-index:1000; 
+  left:5300px;
+  top: 300px;
+  width: 400px;
+}
+
 
 
 /*Page 4 (Screenshot link)*/
@@ -283,6 +304,13 @@ z-index: 3;
   position: absolute;
   z-index:1000; 
   left:6550px;
+  top: 300px;
+  width: 400px;
+}
+.inbetween4{
+  position: absolute;
+  z-index:1000; 
+  left:7300px;
   top: 300px;
   width: 400px;
 }
@@ -335,6 +363,13 @@ z-index: 3;
   top: 300px;
   width: 400px;
 }
+.inbetween5{
+  position: absolute;
+  z-index:1000; 
+  left:9300px;
+  top: 300px;
+  width: 400px;
+}
 
 /*Page 6 (Republish)*/
 #hover{
@@ -380,6 +415,13 @@ z-index: 3;
   position: absolute;
   z-index:1000; 
   left:10550px;
+  top: 300px;
+  width: 400px;
+}
+.inbetween6{
+  position: absolute;
+  z-index:1000; 
+  left:11300px;
   top: 300px;
   width: 400px;
 }
@@ -431,7 +473,13 @@ z-index: 3;
   top: 300px;
   width: 400px;
 }
-
+.inbetween7{
+  position: absolute;
+  z-index:1000; 
+  left:13300px;
+  top: 300px;
+  width: 400px;
+}
 /*Page 8 (variations)*/
 #responsive{
 left:14020px;
@@ -476,6 +524,13 @@ z-index: 3;
   position: absolute;
   z-index:2; 
   left:14550px;
+  top: 300px;
+  width: 400px;
+}
+.inbetween8{
+  position: absolute;
+  z-index:1000; 
+  left:15300px;
   top: 300px;
   width: 400px;
 }
@@ -525,6 +580,13 @@ z-index: 3;
   position: absolute;
   z-index:1000; 
   left:16550px;
+  top: 300px;
+  width: 400px;
+}
+.inbetween9{
+  position: absolute;
+  z-index:1000; 
+  left:17300px;
   top: 300px;
   width: 400px;
 }
@@ -578,6 +640,13 @@ opacity: .5;
   z-index:1000; 
 }
 
+.inbetween10{
+  position: absolute;
+  z-index:1000; 
+  left:19300px;
+  top: 300px;
+  width: 400px;
+}
 /*Page 11 (Abstract Grid)*/
 #sentence{
 left:20020px;
@@ -626,7 +695,13 @@ z-index: 3;
   width: 400px;
 
 }
-
+.inbetween11{
+  position: absolute;
+  z-index:1000; 
+  left:21300px;
+  top: 300px;
+  width: 400px;
+}
 /*Page 12 (Sentence Generator)*/
 #beggining{
 left:22040px;
@@ -675,6 +750,13 @@ z-index: 3;
   width: 400px;
 }
 
+.inbetween12{
+  position: absolute;
+  z-index:1000; 
+  left:23400px;
+  top: 300px;
+  width: 400px;
+}
 
 
 
